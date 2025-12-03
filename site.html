@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amato Lusitano — Médico e Humanista do Renascimento</title>
+  <meta name="description" content="Descubra a vida, obra e percurso de Amato Lusitano (1511-1568), um dos mais notáveis médicos do Renascimento português, autor das Centúrias de Curas Medicinais.">
+  <meta name="author" content="Projeto Cultural Amato Lusitano">
+  <meta name="keywords" content="Amato Lusitano, João Rodrigues de Castelo Branco, medicina renascentista, história da medicina, Portugal, Centúrias">
+  
+  <meta property="og:title" content="Amato Lusitano — Médico e Humanista do Renascimento">
+  <meta property="og:description" content="Exposição digital sobre a vida, obra e percurso de um dos mais importantes médicos do Renascimento português.">
+  <meta property="og:type" content="website">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+          </svg>
+        </div>
+        <span class="logo-text">AMATO LUSITANO</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop">
+        <a href="#vida" class="nav-link">Vida</a>
+        <a href="#obra" class="nav-link">Obra</a>
+        <a href="#percurso" class="nav-link">Percurso</a>
+        
+        <div class="lang-dropdown">
+          <button class="lang-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+            <span>PT</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="lang-menu">
+            <button class="lang-option active" data-lang="pt">Português</button>
+            <button class="lang-option" data-lang="en">English</button>
+            <button class="lang-option" data-lang="es">Español</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="#vida" class="mobile-nav-link">Vida</a>
+      <a href="#obra" class="mobile-nav-link">Obra</a>
+      <a href="#percurso" class="mobile-nav-link">Percurso</a>
+      
+      <div class="mobile-lang-section">
+        <p class="mobile-lang-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          Idioma
+        </p>
+        <div class="mobile-lang-buttons">
+          <button class="mobile-lang-btn active" data-lang="pt">Português</button>
+          <button class="mobile-lang-btn" data-lang="en">English</button>
+          <button class="mobile-lang-btn" data-lang="es">Español</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content fade-in">
+        <span class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          Exposição Digital
+        </span>
+        
+        <h1 class="hero-title">
+          <span>Amato</span>
+          Lusitano
+        </h1>
+        
+        <p class="hero-subtitle">Médico e Humanista do Renascimento</p>
+        
+        <p class="hero-description">
+          Descubra a extraordinária jornada de João Rodrigues de Castelo Branco, 
+          um dos mais notáveis médicos do Renascimento português, cujas 
+          contribuições para a medicina ecoam até os nossos dias.
+        </p>
+        
+        <a href="#descobrir" class="hero-cta">
+          Descobrir a História
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="hero-portrait fade-in">
+        <div class="portrait-wrapper">
+          <div class="portrait-glow"></div>
+          <div class="portrait-frame">
+            <img src="assets/amato-portrait-CQr6W4Vu.jpg" alt="Retrato de Amato Lusitano" class="portrait-img">
+            <div class="portrait-caption">
+              <p class="portrait-name">João Rodrigues</p>
+              <p class="portrait-dates">1511 — 1568</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <span>Explorar</span>
+      <div class="chevrons">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-top: -8px; opacity: 0.5;">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDS SECTION -->
+  <section id="descobrir" class="cards-section">
+    <header class="section-header fade-in">
+      <span class="section-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+        Conhecer
+      </span>
+      <h2 class="section-title">Explore a <span>História</span></h2>
+      <p class="section-description">
+        Mergulhe na fascinante história de um dos maiores médicos do Renascimento, 
+        através de três perspectivas: a sua vida, a sua obra e o seu percurso.
+      </p>
+    </header>
+
+    <div class="cards-grid">
+      <!-- Card Vida -->
+      <article id="vida" class="interactive-card" data-card="vida">
+        <div class="card-image-wrapper">
+          <img src="assets/vida-card-DcOwav3K.jpg" alt="A Vida de Amato Lusitano" class="card-image">
+          <div class="card-gradient-overlay"></div>
+          <div class="card-shimmer"></div>
+          <div class="card-icon-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">A Vida</h3>
+          <p class="card-subtitle">De cristão-novo em Castelo Branco a médico errante pela Europa</p>
+          <span class="card-cta">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- Card Obra -->
+      <article id="obra" class="interactive-card" data-card="obra">
+        <div class="card-image-wrapper">
+          <img src="assets/obra-card-BiooB5aq.jpg" alt="A Obra de Amato Lusitano" class="card-image">
+          <div class="card-gradient-overlay"></div>
+          <div class="card-shimmer"></div>
+          <div class="card-icon-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">A Obra</h3>
+          <p class="card-subtitle">Centúrias de Curas e a descoberta das válvulas venosas</p>
+          <span class="card-cta">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- Card Percurso -->
+      <article id="percurso" class="interactive-card" data-card="percurso">
+        <div class="card-image-wrapper">
+          <img src="assets/percurso-card-CtxuRSMU.jpg" alt="O Percurso de Amato Lusitano" class="card-image">
+          <div class="card-gradient-overlay"></div>
+          <div class="card-shimmer"></div>
+          <div class="card-icon-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="10" r="3"/>
+              <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">O Percurso</h3>
+          <p class="card-subtitle">Uma jornada de Portugal a Salónica através da Europa</p>
+          <span class="card-cta">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-logo">AMATO LUSITANO</p>
+      <p class="footer-text">Projeto Cultural e Educativo</p>
+      <p class="footer-text">Preservando a memória de um dos maiores médicos do Renascimento</p>
+      <div class="footer-divider"></div>
+      <p class="footer-copyright">© 2025 Exposição Digital Amato Lusitano. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="modal-image-wrapper">
+        <img id="modal-image" src="" alt="" class="modal-image">
+        <div class="modal-image-overlay"></div>
+        <div class="modal-title-overlay">
+          <h2 id="modal-title" class="modal-title"></h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div id="modal-body-content" class="modal-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
